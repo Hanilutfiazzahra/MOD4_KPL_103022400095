@@ -6,6 +6,7 @@ namespace Modul4_103022400095
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("IMPLEMENTASI KODE PAKET");
             KodePaket kp = new KodePaket();
 
             Console.WriteLine("Kode Paket Basic = " + kp.GetKode("Basic"));
@@ -18,6 +19,16 @@ namespace Modul4_103022400095
             Console.WriteLine("Kode Paket Business = " + kp.GetKode("Business"));
             Console.WriteLine("Kode Paket Student = " + kp.GetKode("Student"));
             Console.WriteLine("Kode Paket Traveler = " + kp.GetKode("Traveler"));
+
+            Console.ReadLine();
+            Console.WriteLine("IMPLEMENTASI MESIN KOPI");
+            MesinKopi mk = new MesinKopi();
+            mk.PowerOn();
+            mk.StartBrew();
+            mk.FinishBrew();
+            mk.StartMaintenance();
+            mk.FinishMaintenance();
+            mk.PowerOff();
         }
     }
 }

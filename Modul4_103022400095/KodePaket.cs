@@ -13,11 +13,11 @@ namespace Modul4_103022400095
             {"Premium", "P203" },
             {"Unlimited", "P204"},
             {"Gaming", "P205"},
-            {"Streaming", "P06"},
-            {"Family", "P07" },
-            {"Business", "P08"},
-            {"Student", "P09"},
-            {"Traveler", "P10"}
+            {"Streaming", "P206"},
+            {"Family", "P207" },
+            {"Business", "P208"},
+            {"Student", "P209"},
+            {"Traveler", "P210"}
         };
 
         public string GetKode(string namaPaket)
